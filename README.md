@@ -6,14 +6,14 @@
 
 ## Specification
 
- 1.  Spring Boot, web application
- 2.  Modular monolith hexagonal architecture
- 3.  Facade design pattern
- 4.  NoSQL databases (MongoDB) for coupon and results repositories
- 5.  There is good test coverage, including both unit tests and "happy path" integration tests.
- 6. The controllers have been tested using mockMvc, and the winning numbers service has been stubbed using WireMock.
- 7.  Scheduled lottery run and results processing
- 
+1.  Spring Boot, web application
+2.  Modular monolith hexagonal architecture
+3.  Facade design pattern
+4.  NoSQL databases (MongoDB) for coupon and results repositories
+5.  There is good test coverage, including both unit tests and "happy path" integration tests.
+6.  The controllers have been tested using mockMvc, and the winning numbers service has been stubbed using WireMock.
+7.  Scheduled lottery run and results processing
+
 ## Tech:
 Lotto|Web is developed using following technologies:
 
@@ -25,10 +25,56 @@ Core:
 
 ![enter image description here](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
 
-Testing: 
+Testing:
 
 ![enter image description here](https://img.shields.io/badge/JUnit5-25A162.svg?style=for-the-badge&logo=JUnit5&logoColor=white) ![enter image description here](https://camo.githubusercontent.com/6677ce19252d9b153201746c53ab0c5c68db012681103ff8b23f94ec85cce666/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f636b69746f2d3738413634313f7374796c653d666f722d7468652d6261646765)
 
 ![enter image description here](https://camo.githubusercontent.com/a97b9de3bc5420c2cc77a8bc1c39b8e7889315bcd52c5787bc366abf99013466/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54657374636f6e7461696e6572732d3942343839413f7374796c653d666f722d7468652d6261646765)
 
-![Project lotto](architecture-diagram.png)
+## C3 diagram:
+![Project lotto](architecture.png)
+
+
+_#_# How to build the project on your own
+#### To build the project:
+
+##### 1. Clone the repository: #####
+
+```bash
+git clone https://github.com/GrzegorzHolui/LottoExcelent.git
+```
+##### 2. Go to the folder with cloned repository #####
+
+##### 3. Run the command: #####
+
+```bash
+mvn package -DskipTests
+```
+
+##### 4. In folder target you should find a file named: application-{version}-SNAPSHOT.jar #####
+
+
+#### To build the docker image with Docker Compose: ####
+
+##### 1. Clone the repository: #####
+```bash
+git clone https://github.com/GrzegorzHolui/LottoExcelent.git
+```
+
+##### 2. Go to the folder with cloned repository: #####
+
+
+##### 3. Run the command: #####
+```bash
+docker-compose build
+```
+
+##### 4. By using #####
+```bash
+docker images
+```
+
+
+
+
+
