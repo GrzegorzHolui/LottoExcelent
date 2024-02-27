@@ -31,6 +31,48 @@ Testing:
 
 ![enter image description here](https://camo.githubusercontent.com/a97b9de3bc5420c2cc77a8bc1c39b8e7889315bcd52c5787bc366abf99013466/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54657374636f6e7461696e6572732d3942343839413f7374796c653d666f722d7468652d6261646765)
 
-![Project lotto](architecture-diagram.png)
+![Project lotto](architecture.png)
+
+
+_#_# How to build the project on your own
+#### To build the project:
+
+##### 1. Clone the repository: #####
+
+```bash
+git clone https://github.com/GrzegorzHolui/LottoExcelent.git
+```
+##### 2. Go to the folder with cloned repository #####
+
+##### 3. Run the command: #####
+
+```bash
+mvn package -DskipTests
+```
+
+##### 4. In folder target you should find a file named: application-{version}-SNAPSHOT.jar #####
+
+
+#### To build the docker image with Docker Compose: ####
+
+##### 1. Clone the repository: #####
+```bash
+git clone https://github.com/GrzegorzHolui/LottoExcelent.git
+```
+
+##### 2. Go to the folder with cloned repository: #####
+
+
+##### 3. Run the command: #####
+```bash
+docker-compose build
+```
+
+##### 4. By using #####
+```bash
+docker images
+```
+
+
 
 
