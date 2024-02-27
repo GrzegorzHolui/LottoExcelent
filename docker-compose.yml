@@ -27,8 +27,8 @@ services:
 
   lotto:
     container_name: lotto
-    build: .
-#    image: lottoexcelentgrzegorz-lotto:latest
+#    build: .
+    image: lottoexcelentgrzegorz-lotto:latest
     restart: always
     ports:
       - "8000:8000"

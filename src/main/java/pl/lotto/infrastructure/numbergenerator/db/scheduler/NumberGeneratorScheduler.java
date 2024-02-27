@@ -18,7 +18,7 @@ public class NumberGeneratorScheduler implements GeneratorNumbers {
     NumberGeneratorFacade numberGeneratorFacade;
 
 
-    @Scheduled(cron = "${app.generate-Numbers-For-Saturday}")
+    @Scheduled(cron = "0 0 12 * * SAT")
     public boolean generateNumbers() {
         NumberGeneratorResultDto numberGeneratorResultDto = numberGeneratorFacade.generateNumbersForDate(
                 LocalDateTime.of(calcNextSunday(LocalDate.now()), LocalTime.of(12, 0))
