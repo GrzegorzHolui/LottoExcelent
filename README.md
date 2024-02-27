@@ -73,8 +73,3 @@ docker-compose build
 ```bash
 docker images
 ```
-
-
-
-
-
