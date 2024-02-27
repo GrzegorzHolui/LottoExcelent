@@ -13,66 +13,22 @@
  5.  There is good test coverage, including both unit tests and "happy path" integration tests.
  6. The controllers have been tested using mockMvc, and the winning numbers service has been stubbed using WireMock.
  7.  Scheduled lottery run and results processing
- 
-## Tech:
+
+ ## Tech:
 Lotto|Web is developed using following technologies:
 
 Core:
 
-![enter image description here](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![enter image description here](https://img.shields.io/badge/Apache%20Maven-C71A36.svg?style=for-the-badge&logo=Apache-Maven&logoColor=white)
+![enter image description here](https://camo.githubusercontent.com/94255ec6b3c759a685d09b160102f6780416030ba75119a1d9d05cd1d2345e5a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176612d4544384230303f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661266c6f676f436f6c6f723d7768697465)
+![enter image description here](https://camo.githubusercontent.com/0c06ba358a6e3ef89bf50d0e3f0f94ee20a2a26d9572e007dc23ffc3fc848fb8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6170616368655f6d6176656e2d4337314133363f7374796c653d666f722d7468652d6261646765266c6f676f3d6170616368656d6176656e266c6f676f436f6c6f723d7768697465)
+![enter image description here](https://camo.githubusercontent.com/2a1686c791f100fd94f85b084f6b4db88ce4e094ea6f19e7665b6d23f07f84de/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f537072696e675f426f6f742d4632463446393f7374796c653d666f722d7468652d6261646765266c6f676f3d737072696e67)
+![](https://camo.githubusercontent.com/4ae569342c64ecd9f0d7e7cbed78fffcca6a0f427e8efb4297c1d357dfb09074/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d3445413934423f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465)
+![](https://camo.githubusercontent.com/bce5c9b25447afefd9c8dc63febce5936fbff659beee51466a130b41a2821a9b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d3243413545303f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465)
 
-![enter image description here](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=Spring-Boot&logoColor=white) ![enter image description here](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
+Testing:
 
-![enter image description here](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
-
-Testing: 
-
-![enter image description here](https://img.shields.io/badge/JUnit5-25A162.svg?style=for-the-badge&logo=JUnit5&logoColor=white) ![enter image description here](https://camo.githubusercontent.com/6677ce19252d9b153201746c53ab0c5c68db012681103ff8b23f94ec85cce666/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f636b69746f2d3738413634313f7374796c653d666f722d7468652d6261646765)
-
-![enter image description here](https://camo.githubusercontent.com/a97b9de3bc5420c2cc77a8bc1c39b8e7889315bcd52c5787bc366abf99013466/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54657374636f6e7461696e6572732d3942343839413f7374796c653d666f722d7468652d6261646765)
-
-![Project lotto](architecture.png)
-
-
-_#_# How to build the project on your own
-#### To build the project:
-
-##### 1. Clone the repository: #####
-
-```bash
-git clone https://github.com/GrzegorzHolui/LottoExcelent.git
-```
-##### 2. Go to the folder with cloned repository #####
-
-##### 3. Run the command: #####
-
-```bash
-mvn package -DskipTests
-```
-
-##### 4. In folder target you should find a file named: application-{version}-SNAPSHOT.jar #####
-
-
-#### To build the docker image with Docker Compose: ####
-
-##### 1. Clone the repository: #####
-```bash
-git clone https://github.com/GrzegorzHolui/LottoExcelent.git
-```
-
-##### 2. Go to the folder with cloned repository: #####
-
-
-##### 3. Run the command: #####
-```bash
-docker-compose build
-```
-
-##### 4. By using #####
-```bash
-docker images
-```
-
-
+![](https://camo.githubusercontent.com/6cf47d9ca3b8d62efb942ad8e9c9335f5bd5196ec76150d42fcc1a65f8486ddf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a756e6974352d3235413136323f7374796c653d666f722d7468652d6261646765266c6f676f3d6a756e697435266c6f676f436f6c6f723d7768697465)
+![](https://camo.githubusercontent.com/d38819e2d4efdc0a84acb94de6e2c94a02997234c5a72e72b1c250bb5a980e6f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f636b69746f2d3738413634313f7374796c653d666f722d7468652d6261646765)
+![](https://camo.githubusercontent.com/64222af02483697dcb725214353024d87b41710a78ce20af9c9e78b747355169/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54657374636f6e7461696e6572732d3942343839413f7374796c653d666f722d7468652d6261646765)
 
 
