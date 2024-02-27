@@ -30,3 +30,5 @@ Testing:
 ![enter image description here](https://img.shields.io/badge/JUnit5-25A162.svg?style=for-the-badge&logo=JUnit5&logoColor=white) ![enter image description here](https://camo.githubusercontent.com/6677ce19252d9b153201746c53ab0c5c68db012681103ff8b23f94ec85cce666/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f636b69746f2d3738413634313f7374796c653d666f722d7468652d6261646765)
 
 ![enter image description here](https://camo.githubusercontent.com/a97b9de3bc5420c2cc77a8bc1c39b8e7889315bcd52c5787bc366abf99013466/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54657374636f6e7461696e6572732d3942343839413f7374796c653d666f722d7468652d6261646765)
+
+![Project lotto](architecture-diagram.png)
